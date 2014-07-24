@@ -1,3 +1,5 @@
 {application, procket,
     [{description, "Low level socket operations"},
+    {registered, []},
+    {applications, []},
     {vsn, "0.4.3"}]}.
