@@ -72,6 +72,8 @@
     progname/0
     ]).
 
+-export([fdrecv/1]).
+
 -on_load(on_load/0).
 
 on_load() ->
